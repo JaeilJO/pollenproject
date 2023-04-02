@@ -19,7 +19,7 @@ export const Navigation = styled.nav`
 // atoms
 
 export const Logo = styled.div`
-  font-size: 5rem;
+  font-size: 3rem;
   color: white;
   text-align: right;
   font-weight: 900;
@@ -40,7 +40,7 @@ export const NavigationList = styled.ul`
 `;
 
 export const NavigationListItem = styled.li`
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   transition: 250ms;
   @media screen and (max-width: 1000px) {
@@ -54,6 +54,19 @@ export const Footer = styled.footer`
   color: white;
   text-align: center;
   @media screen and (max-width: 1000px) {
-    text-align: right;
+    display: none;
+  }
+`;
+
+export const Controller = styled.button`
+  background-color: #e66e62;
+  position: absolute;
+  right: -100px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  @media screen and (max-width: 1000px) {
+    right: -20%;
   }
 `;

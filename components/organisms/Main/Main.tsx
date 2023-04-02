@@ -3,9 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <>
-      <header>
-        <button>Close</button>
-      </header>
+      <header></header>
       <main></main>
     </>
   );
