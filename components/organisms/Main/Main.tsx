@@ -2,10 +2,9 @@ import React from "react";
 
 const Main = () => {
   return (
-    <>
-      <header></header>
-      <main></main>
-    </>
+    <div>
+      <div></div>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  background-color: skyblue;
+  flex-direction: column;
   display: flex;
   max-width: 1200px;
   min-width: 300px;

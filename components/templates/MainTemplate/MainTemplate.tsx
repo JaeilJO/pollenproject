@@ -1,12 +1,13 @@
 import React from "react";
-import NavigationBar from "../../organisms/NavigationBar/NavigationBar";
+
 import Main from "../../organisms/Main/Main";
 import { MainContainer } from "./MainTemplate.styled";
+import Header from "../../organisms/Header/Header";
 
 const MainTemplate = () => {
   return (
     <MainContainer>
-      <NavigationBar />
+      <Header />
       <Main />
     </MainContainer>
   );
