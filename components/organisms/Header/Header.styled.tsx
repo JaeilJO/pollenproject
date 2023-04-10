@@ -13,7 +13,7 @@ export const NavigationList = styled.ul`
   display: flex;
   gap: 20px;
   position: absolute;
-  right: ${(props) => (props.hamburgerState ? `60px` : `40px`)};
+  right: ${(props) => (props.hamburgerState ? `80px` : `40px`)};
   transition: 230ms;
   opacity: ${(props) => (props.hamburgerState ? `100` : `0`)};
   pointer-events: ${(props) => (props.hamburgerState ? `` : `none`)};
@@ -21,11 +21,10 @@ export const NavigationList = styled.ul`
 
   @media screen and (min-width: 500px) {
     position: relative;
-    right: 10px;
-    gap: 0;
-    height: 100%;
-    display: flex;
     opacity: 100;
+    right: 0;
+    gap: 0;
+    display: flex;
     pointer-events: all;
   }
 `;

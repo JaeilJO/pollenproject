@@ -11,7 +11,7 @@ export const HamburgerButton = styled.div`
   transition: 320ms;
   cursor: pointer;
   @media screen and (min-width: 500px) {
-    opacity: 0;
+    display: none;
     pointer-events: none;
   }
 `;
